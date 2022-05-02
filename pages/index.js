@@ -30,13 +30,13 @@ export default function Home() {
             return (
               <div className={styles.card}>
                 <h4>{ `${index + 1}. ${q.task}` }</h4>
-                <ul>
+                <>
                   { Object.values(q.reason).map((reason) => {
                     return (
-                      <li>{ reason }</li>
+                      <p>&#8226; { reason }</p>
                     )
                   })}
-                </ul>
+                </>
               </div>
             )
           })}
@@ -46,13 +46,13 @@ export default function Home() {
               return (
                 <div className={styles.card}>
                   <h4>{ `${index + 1}. ${q.task}` }</h4>
-                  <ul>
+                  <>
                     { Object.values(q.reason).map((reason, index) => {
                       return (
-                        <li>{ reason }</li>
+                        <p>{ reason }</p>
                       )
                     })}
-                  </ul>
+                  </>
                 </div>
               )
             })}
@@ -61,31 +61,29 @@ export default function Home() {
         <h2>2) What do you want to learn, or do more of, at work?</h2>
 
         <div className={styles.card}>
-          <ul>
-            <li>Work with front end frameworks and serverless functions</li>
-            <li>Build familiarity with Vercel platform features and common runtime errors</li>
-            <li>Specialize in a few product areas</li>
-            <li>Learn more on identifying/diagnosing network  and latency issues</li>
-            <li>Update docs on the fly (without a rigorous process, making it easier to contribute)</li>
-            <li>Contribute to process improvements</li>
-          </ul>
+          <>
+            <p>&#8226; Work with front end frameworks and serverless functions</p>
+            <p>&#8226; Build familiarity with Vercel platform features and common runtime errors</p>
+            <p>&#8226; Specialize in a few product areas</p>
+            <p>&#8226; Learn more on identifying/diagnosing network  and latency issues</p>
+            <p>&#8226; Update docs on the fly (without a rigorous process, making it easier to contribute)</p>
+            <p>&#8226; Contribute to process improvements</p>
+          </>
         </div>
 
         <h2>3) Which technical article, guide or lightning talk left the biggest positive impression on you? Why? Ideally, this article would not be associated with Vercel or web development, by the way! Please provide links.</h2>
 
         <div className={styles.card}>
-          <ul>
-            <li>Disclaimer: Response not meant to be political! It’s what captured me upon first discovery/impression</li>
-            <li>Link: <a href="https://2020.yang2020.com/policies/the-freedom-dividend/">https://2020.yang2020.com/policies/the-freedom-dividend/</a></li>
-            <li>Why: When scrolling through social media in 2019, I stumbled upon a non-profit US presidential candidate. Initially, what captured me was the modern social media marketing and website’s UI. Proceeding forward to explore, I read through his most popular policy: The Freedom Dividend. I was impressed with the flow of the policy proposal:</li>
-            <li>First, the proposal and its conditions were clearly defined</li>
-            <li>The problems to be solved varied and were highlighted</li>
-            <li>Excerpts were shared on who also championed for the idea</li>
-            <li>Goals were outlined to cover more than just one perspective</li>
-            <li>An action item was highlighted to summarize what he’s committing to </li>
-            <li>Excerpts from historical events and figures displayed to reference how the policy is becoming more relevant based on current trends</li>
-            <li>There’s an overall neutral tone to the policy (doesn’t speak negatively towards others, but instead, focuses on solving the problems)</li>
-          </ul>
+          <p>&#8226; Disclaimer: Response not meant to be political! It’s what captured me upon first discovery/impression</p>
+          <p>&#8226; Link: <a href="https://2020.yang2020.com/policies/the-freedom-dividend/">https://2020.yang2020.com/policies/the-freedom-dividend/</a></p>
+          <p>&#8226; Why: When scrolling through social media in 2019, I stumbled upon a non-profit US presidential candidate. Initially, what captured me was the modern social media marketing and website’s UI. Proceeding forward to explore, I read through his most popular policy: The Freedom Dividend. I was impressed with the flow of the policy proposal:</p>
+          <p>&#8226; First, the proposal and its conditions were clearly defined</p>
+          <p>&#8226; The problems to be solved varied and were highlighted</p>
+          <p>&#8226; Excerpts were shared on who also championed for the idea</p>
+          <p>&#8226; Goals were outlined to cover more than just one perspective</p>
+          <p>&#8226; An action item was highlighted to summarize what he’s committing to </p>
+          <p>&#8226; Excerpts from historical events and figures displayed to reference how the policy is becoming more relevant based on current trends</p>
+          <p>&#8226; There’s an overall neutral tone to the policy (doesn’t speak negatively towards others, but instead, focuses on solving the problems)</p>
         </div>
 
         <h2>4) Add a temporary in-app redirect to your project, redirecting /hello-vercel (or any path – but be sure to tell us which!) to https://vercel.com</h2>
@@ -99,10 +97,8 @@ export default function Home() {
           <p>Hi Scott,</p>
           <br/>
           <p>My name is Jennifer, and I’ll be happy to assist with your inquiry.</p>
-          <ul>
-            <li>If you&apos;re using Next.js Redirects, you can use the redirects property in a next.config.js file.</li>
-            <li>For other Redirects, you can use the redirects properties a vercel.json file.</li>
-          </ul>
+          <p>&#8226; If you&apos;re using Next.js Redirects, you can use the redirects property in a next.config.js file.</p>
+          <p>&#8226; For other Redirects, you can use the redirects properties a vercel.json file.</p>
           <p>Here&apos;s an article with more information: <a href="https://vercel.com/support/articles/does-vercel-support-permanent-redirects#in-application-redirects">https://vercel.com/support/articles/does-vercel-support-permanent-redirects#in-application-redirects</a></p>
           <br/>
           <p>Let me know if you&apos;ve any questions or if this addresses your inquiry.</p>
@@ -129,11 +125,11 @@ export default function Home() {
 
         <h2>7) What do you think is one of the most common problems which customers ask Vercel for help with? How would you help customers to overcome common problems, short-term and long-term?</h2>
         <div className={styles.card}>
-        <ul>
-          <li>Common problems: Caching, DNS, and historical data or logging</li>
-          <li>Short-term: Update FAQs, provide examples in docs, or create articles/guides</li>
-          <li>Long-term: Share common reported problems to Product manager to consider feature enhancement for a more intuitive user experience</li>
-        </ul>
+        <>
+          <p>&#8226; Common problems: Caching, DNS, and historical data or logging</p>
+          <p>&#8226; Short-term: Update FAQs, provide examples in docs, or create articles/guides</p>
+          <p>&#8226; Long-term: Share common reported problems to Product manager to consider feature enhancement for a more intuitive user experience</p>
+        </>
         </div>
 
         <h2>8) How could we improve or alter this familiarisation exercise?</h2>
