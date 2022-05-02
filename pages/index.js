@@ -91,28 +91,28 @@ export default function Home() {
         <h2>4) Add a temporary in-app redirect to your project, redirecting /hello-vercel (or any path – but be sure to tell us which!) to https://vercel.com</h2>
 
         <div className={styles.card}>
-        <p>Done! Here's the path which temporarily redirects to vercel.com: <a href="/hello-vercel">https://vercel.com/hello-vercel</a></p>
+        <p>Done! Here&apos;s the path which temporarily redirects to vercel.com: <a href="/hello-vercel">https://vercel.com/hello-vercel</a></p>
         </div>
 
-        <h2>5) A customer writes in to the Helpdesk asking "How do I do a redirect from /hello-vercel to https://vercel.com?" In a couple of paragraphs, how do you respond?</h2>
+        <h2>5) A customer writes in to the Helpdesk asking &quot;How do I do a redirect from /hello-vercel to https://vercel.com?&quot; In a couple of paragraphs, how do you respond?</h2>
         <div className={styles.card}>
           <p>Hi Scott,</p>
           <br/>
           <p>My name is Jennifer, and I’ll be happy to assist with your inquiry.</p>
           <ul>
-            <li>If you’re using Next.js Redirects, you can use the redirects property in a next.config.js file.</li>
+            <li>If you&apos;re using Next.js Redirects, you can use the redirects property in a next.config.js file.</li>
             <li>For other Redirects, you can use the redirects properties a vercel.json file.</li>
           </ul>
-          <p>Here’s an article with more information: <a href="https://vercel.com/support/articles/does-vercel-support-permanent-redirects#in-application-redirects">https://vercel.com/support/articles/does-vercel-support-permanent-redirects#in-application-redirects</a></p>
+          <p>Here&apos;s an article with more information: <a href="https://vercel.com/support/articles/does-vercel-support-permanent-redirects#in-application-redirects">https://vercel.com/support/articles/does-vercel-support-permanent-redirects#in-application-redirects</a></p>
           <br/>
-          <p>Let me know if you’ve any questions or if this addresses your inquiry.</p>
+          <p>Let me know if you&apos;ve any questions or if this addresses your inquiry.</p>
           <br/>
           <p>Kind Regards,
             <br/>Jennifer Tran
           </p>
         </div>
 
-        <h2>6) A customer writes in to the Helpdesk stating "I have a custom domain which I purchased at GoDaddy and I want to use it on my project". In a couple of paragraphs, how do you respond?</h2>
+        <h2>6) A customer writes in to the Helpdesk stating &quot;I have a custom domain which I purchased at GoDaddy and I want to use it on my project&quot;. In a couple of paragraphs, how do you respond?</h2>
         <div className={styles.card}>
           <p>Hi Scott,</p>
           <br/>
