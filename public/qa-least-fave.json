@@ -1,0 +1,32 @@
+{
+  "Question 1": {
+    "task":"Respond to 50+ support requests via email every day",
+    "reason":{
+      "a":"There’s no doubt I enjoy handling support requests as it’s a core responsibility of a support engineer, but to quantify and qualify support data (ex: analyze common request trends, busy periods, impacted product lines, etc.) it would make for an improved support experience if requests were handled in a ticketing system dashboard (rather than strictly via email)"
+    }
+  },
+  "Question 2": {
+    "task":"Work with 3rd party partners to track down a tricky situation for a joint customer",
+    "reason":{
+      "a":"It’s no problem working with 3rd party partners, but in circumstances where the 3rd party is unresponsive or uncooperative, it can take additional effort to chase the case"
+    }
+  },
+  "Question 3": {
+    "task":"Create video tutorials to help teach users a specific feature or use case",
+    "reason":{
+      "a":"Video tutorials are great for getting started, new features, and just visually following along, but they can take additional planning and edits to make the flow"
+    }
+  },
+  "Question 4": {
+    "task":"Run ticket review sessions to make sure tone is consistent",
+    "reason":{
+      "a":"Building a customer brand and tone can enhance overall customer experience working with Vercel’s product and support team, but there should also be room to add human/personal touch"
+    }
+  },
+  "Question 5": {
+    "task":"Help resolve billing issues for customers",
+    "reason":{
+      "a":"While billing is important and critical to the company’s success, I find deeper gratification in troubleshooting technical and complex product issues"
+    }
+  }
+}

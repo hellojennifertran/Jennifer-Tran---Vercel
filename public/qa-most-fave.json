@@ -1,0 +1,39 @@
+{
+  "Question 1": {
+    "task":"Dig through logs to troubleshoot a customer's broken project",
+    "reason":{
+      "a":"It’s an opportunity to troubleshoot, experience, and identify common issues/errors from a customer’s perspective",
+      "b":"It contributes to customer empathy, relationships, self-help docs, and best practices",
+      "c":"I simply enjoy solving problems and puzzles in both my professional and personal life (escape rooms and rock climbing!)"
+    }
+  },
+  "Question 2": {
+    "task":"Identify, file (and, where possible, resolve) bugs in private and public Vercel/Next.js repos on GitHub",
+    "reason":{
+      "a":"I find value in proactively raising bugs to improve customer experience and product quality, whether as a support engineer or as an end user personally",
+      "b":"The outcome of doing so reduces support tickets",
+      "c":"It’s an opportunity to collaborate with engineers and share relevant customer experience/feedback"
+    }
+  },
+  "Question 3": {
+    "task":"Act as a dedicated CSE for a handful of key customers to ensure their success using Vercel",
+    "reason":{
+      "a":"It’s beneficial to intimately learn how key customers use Vercel at a small or large scale, their use cases, and what they can achieve with Vercel – this helps us help other customers too!",
+      "b":"Maintaining customer relationships allow me to gain insight into their developer experience, feedback, and help test new features"
+    }
+  },
+  "Question 4": {
+    "task":"Work with engineering teams during incidents and provide updates to internal and external stakeholders",
+    "reason":{
+      "a":"I appreciate clear and concise communication, so naturally, I like to ensure stakeholders are too when driving an incident towards resolution",
+      "b":"I can manage customer expectations well and remain calm"
+    }
+  },
+  "Question 5": {
+    "task":"Write and maintain support articles and docs pages",
+    "reason":{
+      "a":"Quality, clear, and concise documentation/articles are resourceful and helps customers self-serve ",
+      "b":"The more the merrier, given they’re well-written"
+    }
+  }
+}
